@@ -1,6 +1,6 @@
-## Escape Room mit Raspberry Pi
+# Escape Room mit Raspberry Pi
 
-
+Das Projekt ist die Erstellung von interaktiven Rätseln, die mithilfe von physischen Komponenten wie Motor, Schalter, Lampen etc. gelöst werden sollen. Außerdem soll noch ein digitales Rätsel, mit dem über einen Bildschirm und Eingabegeräte interagiert werden kann. erstellt werden.
 
 # Workpackages
 
