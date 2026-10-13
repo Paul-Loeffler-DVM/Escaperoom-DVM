@@ -1,6 +1,7 @@
-# Escape Room mit Raspberry Pi
+# Puzzle-Pi
 
-Das Projekt ist die Erstellung von interaktiven Rätseln, die mithilfe von physischen Komponenten wie Motor, Schalter, Lampen etc. gelöst werden sollen. Außerdem soll noch ein digitales Rätsel, mit dem über einen Bildschirm und Eingabegeräte interagiert werden kann. erstellt werden.
+Das Projekt ist die Erstellung von interaktiven Rätseln, die mithilfe von physischen Komponenten wie Motor, Schalter, Lampen etc. gelöst werden sollen. Außerdem sollen noch digitales Rätsel, mit dem über einen Bildschirm und Eingabegeräte interagiert werden kann. erstellt werden.
+Puzzle-Pi soll Spaß machen und kognitive, wie kreative Fähigkeiten fördern.
 
 # Projektteam
 
