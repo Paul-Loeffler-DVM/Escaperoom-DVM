@@ -2,8 +2,38 @@
 
 Das Projekt ist die Erstellung von interaktiven Rätseln, die mithilfe von physischen Komponenten wie Motor, Schalter, Lampen etc. gelöst werden sollen. Außerdem soll noch ein digitales Rätsel, mit dem über einen Bildschirm und Eingabegeräte interagiert werden kann. erstellt werden.
 
-# Workpackages
+# Projektteam
 
+Paul Löffler - Product Owner, Developer
+
+Yannic Ibach - Scrum Master, Developer
+
+# Work Packages
+
+## 1 Einkaufen
+
+Zu beginn werden, bzw. wurden die benötigten Komponenten, anhand der geplanten Tasks, ermittelt.
+
+Die Komponenten werden Bestellt oder in einem Elektrofachmarkt gesucht und gekauft.
+
+
+## 2 Aufgaben bauen und Rätsel erstellen
+
+Die geplanten Rätsel werden technisch gebaut und zusammenhängende Rätsel erstellt.
+
+Siehe "Rätsel - Übersicht und Umsetzung" für Details
+
+## 3 Testen
+
+Getestet werden die einzelnen Aufgaben nach ihrer Umsetzung und zum Schluss als zusammenhängendes Ganzes.
+
+Eine weitere Testphase mit am Projeklt unbeteiligten ist vor der Projektmesse geplant. Beteiligte können Kommilitonen, Freunde oder Familie sein.
+
+## 4 Projektmesse
+
+Um sich auf die Projektmesse vorzubereiten werden Plakate, Handouts oder anderes passende Infomaterial zum Projekt erstellt.
+
+Letztlich muss das Projekt transportiert werden, vor Ort sicher aufgebaut und nocheinmal die Funktionsfähigkeit überprüft werden.
 
 # Rätsel – Übersicht und Umsetzung
 
@@ -145,4 +175,12 @@ Der Spieler erhält über eine Lampe oder einen Lautsprecher lange und kurze Sig
 
 # Gantt-Diagramm
 ![alt text](image.png)
+
+
+## Zuständigkeit:
+
+Rot - Paul Löffler
+
+Blau - Yannic Ibach
+
 
