@@ -3,6 +3,54 @@
 Das Projekt ist die Erstellung von interaktiven Rätseln, die mithilfe von physischen Komponenten wie Motor, Schalter, Lampen etc. gelöst werden sollen. Außerdem sollen noch digitales Rätsel, mit dem über einen Bildschirm und Eingabegeräte interagiert werden kann. erstellt werden.
 Puzzle-Pi soll Spaß machen und kognitive, wie kreative Fähigkeiten fördern.
 
+# Anforderung
+
+Dieses Projekt hat die Anforderung ein IoT-Projekt mit Verwaltungsbezug zu werden.
+Zuerst, was bedeutet IoT: „Das Internet of Things (IoT, Internet der Dinge) ist ein Netzwerk aus miteinander verknüpften Objekten und Geräten („Dinge“ genannt), die mit Sensoren (und anderen Technologien) ausgestattet sind, um Daten zu und von anderen Dingen und Systemen zu übertragen und zu empfangen.“
+(Quelle: Was ist das Internet of Things? | SAP. (o. D.). [https://www.sap.com/germany/resources/what-is-iot](https://www.sap.com/germany/resources/what-is-iot) (20.102026))
+
+Um aus diesem Projekt ein IoT-Projekt zu machen, werden einige Grundvoraussetzungen festgelegt. Physische Geräte, die mit Sensoren und anderen Technologien ausgestattet sind werden über ein Raspberry Pi gesteuert, bzw. gilt der Raspberry Pi als Verbindungsstück. Dafür wird in diesem Projekt ein Raspberry Pi 4 und ein RPi 5 genutzt.
+Für die Systeme, die Daten empfangen und übertragen sollen, soll ein Server bei der BW-Cloud aufgesetzt und genutzt werden.
+Einen Verwaltungsbezug herzustellen ist prinzipiell vielfältig möglich. Hier ein kleiner Überblick über mögliche Einsatzbereiche und Vorteile durch den Einsatz von IoT Technologien für Kommunen:
+
+- Intelligente Straßenbeleuchtung, passt sich an Umgebung und Bedarf an.
+Effizienzsteigerung, Nachhaltigkeit und Kosteneinsparungen
+
+- Intelligentes Abfallsystem, Füllstand von Müllcontainern wird durch Sensoren gemessen.
+Kosteneinsparung, durch Vermeidung unnötiger Fahrten
+
+- Des weiteren haben Kommunen durch Echtzeitdaten aus IoT Systemen die Möglichkeit eine fundierte Entscheidungsgrundlage zu nutzen.
+
+
+(Quelle: Vorteile von IoT für Kommunen. Alpha-Omega Technology GmbH & Co. KG. (o. D.). https://iot-market.eu/vorteile-fur-kommunen (20.10.2026))
+
+
+
+## Was muss unser Escaperoom-Projekt leisten um die Anforderungen zu erfüllen?
+
+Die Anforderung, dass physische Geräte Zustände erfassen, Daten verarbeiten und über ein Netzwerk mit anderen Systemen kommunizieren, kann bei unserem Projekt durch die Kombination verschiedener elektronischer Rätsel, eines Raspberry Pi und eines Servers in der BW-Cloud umgesetzt werden.
+
+Bei unserem Projekt geht es darum, dass eine oder mehrere Personen mehrere miteinander verbundene Rätsel lösen, um ein bestimmtes Ziel zu erreichen. 
+Bei einem klassischen Escape Room besteht dieses Ziel beispielsweise darin, einen verschlossenen Raum zu verlassen. 
+In unserem Projekt kann das Ziel alternativ darin bestehen, eine verschlossene Box zu öffnen, ein digitales System freizuschalten oder einen fiktiven Verwaltungsvorgang erfolgreich abzuschließen.
+
+Die einzelnen Rätsel werden mithilfe physischer und digitaler Komponenten realisiert. Dabei sollen die Spieler sowohl mit realen Gegenständen und Sensoren interagieren als auch Aufgaben lösen, die auf einem digitalen System bereitgestellt werden.
+
+Die Anforderungen an ein IoT-Projekt werden durch folgende Komponenten erfüllt:
+-	Physische Geräte: Sensoren und Eingabegeräte erfassen die Aktionen der Spieler und Zustände der Umgebung (z.B. Taster, RFID-leser, DHT 22 Sensoren).
+-	Datenverarbeitung: Der Raspberry Pi verarbeitet die erfassten Daten (oder leitet sie an den Server weiter, wo sie verarbeitet werden) und prüft, ob die Bedingungen eines Rätsels erfüllt sind.
+-	Netzwerkkommunikation: Der Raspberry Pi überträgt Informationen an den BW-Cloud-Server und empfängt gegebenenfalls Antworten oder neue Aufgaben. Die Antworten des Servers können auch zu physischen Aktionen führen, wie das Öffnen einer Box.
+-	Digitale Anwendung: Eine Anwendung auf dem BW-Cloud-Server kann Rätsel bereitstellen, Ergebnisse prüfen oder den aktuellen Spielfortschritt verwalten.
+  
+Entscheidend ist dabei, dass die Komponenten nicht nur unabhängig voneinander funktionieren, sondern miteinander kommunizieren und gemeinsam den Spielfortschritt steuern.
+
+Einen Nutzen für die öffentliche Verwaltung zu zeigen, kann durch einzelne Rätsel geschafft werden.
+- RFID-Leser: Zugangskontrolle für Mitarbeiter, durch RFID-Chipkarten
+- DHT22: Klimaüberwachung in öffentlichen Gebäuden
+
+Der „Escape Room“ könnte außerdem von der Gestaltung auf die Verwaltung ausgerichtet sein. Vorstellbar wäre die Rätsel sind für die Bearbeitung eines Verwaltungsvorganges zu lösen (Die Rätsel stellen Daten für die Entscheidungsgrundlage da) oder auch als Spielidee ein gehacktes Verwaltungssystem muss über die Rätsel nach und nach freigeschalten werden.
+
+
 # Projektteam
 
 Paul Löffler - Product Owner, Developer
